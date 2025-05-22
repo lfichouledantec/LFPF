@@ -1,4 +1,4 @@
-<h1>hello</h1>
+<h1>hello!</h1>
 <?php
 $link = mysqli_connect('localhost', 'root', 'root');  // adapte le mot de passe si besoin
 if (!$link) {
