@@ -1,0 +1,5 @@
+{
+  "name": "Mon Projet Codespace",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postStartCommand": "nohup ./keep_alive.sh > keep_alive.log 2>&1 &"
+}

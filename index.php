@@ -1,6 +1,6 @@
 <h1>hello!</h1>
 <?php
-$link = mysqli_connect('localhost', 'root', 'root');  // adapte le mot de passe si besoin
+$link = mysqli_connect('127.0.0.1', 'root', 'root');  // adapte le mot de passe si besoin
 if (!$link) {
     die('Erreur de connexion (' . mysqli_connect_errno() . ') ' . mysqli_connect_error());
 }
