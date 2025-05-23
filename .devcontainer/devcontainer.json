@@ -1,5 +1,5 @@
 {
   "name": "curly-waddle",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "postStartCommand": "nohup bash -c './update_install.sh && ./keep_alive.sh' > combined.log 2>&1 &"
+  "postStartCommand": "nohup bash -c 'sudo ./update_install.sh && sudo ./keep_alive.sh' > combined.log 2>&1 &"
 }
