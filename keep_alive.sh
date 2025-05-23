@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo ./update_install.sh
 while true
 do
     # Vérifier et démarrer Apache si nécessaire
